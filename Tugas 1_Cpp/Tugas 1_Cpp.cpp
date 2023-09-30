@@ -49,13 +49,13 @@ int main(){
 	
 	//menggunakan array multidimensi
 	int matriks[3][3] = {{1, 4, 3}, {7, 4, 8}, {3, 1, 2}};
-    cout << "Isi matriks:" << endl;
-    for (int row = 0; row < 3; row++) {
-        for (int col = 0; col < 3; col++) {
-            cout << matriks[row][col] << " ";
-        }
-        cout << endl;
-    }
+    	cout << "Isi matriks:" << endl;
+	for (int row = 0; row < 3; row++) {
+		for (int col = 0; col < 3; col++) {
+	            cout << matriks[row][col] << " ";
+	        }
+	cout << endl;
+	}
 	
 	return 0;
 }
